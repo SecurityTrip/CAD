@@ -5,7 +5,7 @@
 #include <QVulkanInstance>
 
 class VulkanWindow : public QWidget {
-    Q_OBJECT
+    Q_OBJECT  // ← ОБЯЗАТЕЛЬНО!
 
 public:
     explicit VulkanWindow(QWidget *parent = nullptr);
