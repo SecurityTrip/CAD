@@ -9,6 +9,7 @@ set(CMAKE_AUTORCC ON)
 # Добавляем путь для поиска UI файлов
 set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/ui)
 
+set(Qt6_DIR "D:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6")
 # Находим необходимые компоненты Qt (например, Qt6 Widgets)
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 
